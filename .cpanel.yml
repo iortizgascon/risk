@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/dinamowe/risk.iortizgascon.com/
+    - /bin/cp -R . $DEPLOYPATH
